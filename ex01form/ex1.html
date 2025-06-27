@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados da conta</title>
+    <link rel="icon" href="https://img.freepik.com/vetores-gratis/novo-design-de-icone-x-do-logotipo-do-twitter-em-2023_1017-45418.jpg?semt=ais_hybrid&w=740">
+    <style>
+        label {
+            display: inline-block;
+            width : 100px;
+        }
+        
+        hr {
+            color: rgba(255, 36, 255, 0.582);
+        }
+
+        fieldset {
+            border-color: rgba(255, 36, 255, 0.582);
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        img {
+            float: left;
+
+        }
+
+        h1 {
+            color: purple;
+            border-bottom: 2px solid;
+            text-align: right;
+        }
+
+        input {
+            border: none;
+            background-color: rgba(255, 36, 255, 0.582);
+            width: 600px;
+        }
+        input[type="submit"]{
+            margin-left: 15px;
+            width: 100px;
+        }   
+
+    </style>
+</head>
+
+<body>
+    <h1>Dados da conta</h1>
+    <form action="a">
+        <img src="form1_back.jpg" alt="formulario">
+        <fieldset>
+            <legend>Dados Pessoais:</legend>
+            <br>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="" maxlength="90" size="">
+            <br>
+            <div>
+                <label for="Email">Email:</label>
+                <input type="email" maxlength="50" size="" placeholder="">
+            </div>
+            <br>
+            <div>
+        </fieldset>
+        <fieldset>
+            <legend>Dados da Conta:</legend>
+            <div>
+                <label for="">Senha:</label>
+                <input type="password" name="senha" id="frase" size="">
+            </div>
+            </div>
+            <br>
+
+            <div><label for="frase">Frase <br>opcional: </label><input type="text" name="frase" id="frase" size="">
+        </fieldset>
+        </div><br>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+
+</html>

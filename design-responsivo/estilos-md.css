@@ -1,0 +1,29 @@
+body {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+article {
+    width: 30%;
+    float: left;
+    margin: auto 1.5%;
+}
+
+article img {
+    max-width: 100%;
+}
+
+.telaMd {
+    display: block;
+}
+
+.telaGd,
+.telapq {
+    display: none;
+}
+
+article:last-of-type {
+
+    padding-bottom: 58px;
+}
